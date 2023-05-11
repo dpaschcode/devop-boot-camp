@@ -1,0 +1,4 @@
+websevers:
+  hosts:
+    web01:
+      ansible_host: 3.227.241.231
