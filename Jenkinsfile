@@ -25,6 +25,9 @@ pipeline {
                  withEnv (['JENKINS_NODE_COOKIE=dontkill'])  {
                     sh 'nohup java --jar ./target/springboot-bootcamp-0.0.1-SNAPRSHOT.jar &'
               }
-           } 
-       }
-}}}
+            } 
+    }   
+  }
+ }
+}
+
